@@ -1,0 +1,18 @@
+.marker {
+    width: 50px;
+    background-color: rgb(240, 91, 32);
+    border: solid 1px #999;
+    border-radius: 6px;
+    text-align: center;
+    padding: 3px;
+    font-size: 12px;
+    cursor: crosshair;
+}
+.marker:hover{
+    background-color: wheat;
+}
+
+.marker .selected {
+    background-color: cornflowerblue;
+    border-bottom-color: blue;
+}

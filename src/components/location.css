@@ -1,0 +1,40 @@
+.app {
+    display: flex;
+}
+.main {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.map {
+    flex-grow: 1;
+    height: 100vh;
+    top: 0;
+    position: sticky;
+    
+}
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+.location {
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+    cursor: pointer;
+}
+.location:hover {
+    opacity: 0.6;
+}
+.location-picture {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.location-title {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
